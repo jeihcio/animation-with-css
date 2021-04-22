@@ -1,3 +1,7 @@
+:root {
+    --animation: RightToLeft 4s infinite linear;
+}
+
 .main {
     background: purple;
     width: 1600px;
@@ -10,7 +14,7 @@
     background: linear-gradient(90deg, rgba(9, 3, 110, 1) 0%, rgba(12, 147, 241, 1) 33%, rgba(12, 147, 241, 1) 69%, rgba(9, 3, 110, 1) 100%);
     width: 800px;
     height: 300px;
-    animation: RightToLeft 4s infinite linear;
+    animation: var(--animation);
 }
 
 @keyframes RightToLeft {
