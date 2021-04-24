@@ -46,7 +46,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: var(--car-velocity);
 }
 
 @keyframes rotateWheel {
@@ -76,6 +75,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: var(--car-velocity);
 }
 
 .hubcap>div {
