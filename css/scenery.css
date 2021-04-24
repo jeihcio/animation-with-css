@@ -60,7 +60,6 @@
 
 .cloud .group {
     display: flex;
-    justify-content: row;
     background: none;
 }
 
