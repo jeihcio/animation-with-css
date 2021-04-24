@@ -55,7 +55,7 @@
 .landscape {
     position: relative;
     width: 800px;
-    height: 290px;
+    height: 330px;
     animation: RightToLeft 25s infinite linear;
     display: flex;
     justify-content: space-around;
@@ -78,7 +78,7 @@
 .grass {
     background-color: green;
     width: 100%;
-    height: 30px;
+    height: 40px;
 }
 
 .road {
@@ -92,7 +92,7 @@
 
 .stripes {
     width: 800px;
-    height: 10px;
+    height: 4px;
     background: repeating-linear-gradient(to right, white, white 7%, transparent 7%, transparent 12%);
     animation: RightToLeft 4s infinite linear;
 }
