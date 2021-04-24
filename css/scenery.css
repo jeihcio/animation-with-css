@@ -20,21 +20,21 @@
 .clouds {
     position: absolute;
     width: 800px;
-    height: 200px;
+    height: 180px;
     display: flex;
     overflow: hidden;
 }
 
 .clouds .container {
-    width: 1600px;
+    width: 2800px;
     height: 200px;
     display: flex;
 }
 
 .clouds .container .section {
-    width: 800px;
+    width: 1400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     animation: RightToLeft 100s infinite linear;
 }
 
