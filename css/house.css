@@ -1,6 +1,25 @@
 .house {
     background-color: #83a5d0;
     width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.house .window {
+    background-color: #d6d408;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+.house .door {
+    background-color: brown;
+    width: 18px;
+    height: 25px;
+    align-self: flex-end;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 9px 9px 0 0;
 }
 
 .big {
