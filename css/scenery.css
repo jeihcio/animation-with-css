@@ -17,6 +17,41 @@
     border-radius: 50%;
 }
 
+.clouds {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+}
+
+.clouds .container {
+    width: 1600px;
+    height: 200px;
+    display: flex;
+}
+
+.clouds .container .section {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    animation: RightToLeft 100s infinite linear;
+}
+
+.cloud1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cloud1 div {
+    background: #cff7f9;
+    width: var(--widthCloud);
+    height: 18px;
+    border-radius: 10px;
+}
+
 .landscape {
     position: relative;
     width: 800px;
