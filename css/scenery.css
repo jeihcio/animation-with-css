@@ -5,11 +5,23 @@
     display: flex;
 }
 
+.sun {
+    position: absolute;
+    box-shadow: 0 0 10px #ffff99, 0 0 40px 4px yellow;
+    background-color: yellow;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
 .landscape {
     position: relative;
     width: 800px;
     height: 290px;
-    animation: RightToLeft 20s infinite linear;
+    animation: RightToLeft 25s infinite linear;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
