@@ -29,3 +29,7 @@
 .small {
     height: 100px;
 }
+
+.invisible {
+    visibility: hidden;
+}
