@@ -1,10 +1,16 @@
 .garden {
     --color-grass: green;
     background-color: var(--color-grass);
+    width: 1600px;
+    height: 5px;
+    display: flex;
+}
+
+.grams {
     width: 800px;
-    height: 30px;
     display: flex;
     justify-content: space-around;
+    animation: RightToLeft 110s infinite linear;
 }
 
 .grass {
