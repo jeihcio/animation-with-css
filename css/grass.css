@@ -10,7 +10,8 @@
     width: 800px;
     display: flex;
     justify-content: space-around;
-    animation: RightToLeft 110s infinite linear;
+    z-index: 1000;
+    /* animation: RightToLeft 110s infinite linear; */
 }
 
 .grass {
@@ -20,7 +21,6 @@
     flex-direction: row;
     justify-content: center;
     margin-top: -4px;
-    z-index: 1000;
 }
 
 .grass>div {
@@ -36,4 +36,28 @@
 
 .grass>div:nth-child(3) {
     transform: rotate(20deg);
+}
+
+.tree1 {
+    background-color: red;
+    width: 40px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tree1 .leaf {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+
+.tree1 .trunk {
+    height: 15px;
+    width: 5px;
+    background: brown;
 }
