@@ -20,9 +20,10 @@
 .clouds {
     position: absolute;
     width: 800px;
-    height: 180px;
+    height: 140px;
     display: flex;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .clouds .container {
