@@ -34,6 +34,15 @@
     border-radius: 50%;
 }
 
+.window .diviser {
+    position: absolute;
+    background-color: var(--car-color);
+    width: 6px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .roof .window::after {
     content: '';
     width: 70px;
