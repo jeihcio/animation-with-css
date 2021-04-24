@@ -1,5 +1,6 @@
 :root {
     --road-velocity: RightToLeft 2s infinite linear;
+    --car-velocity: rotateWheel 2s infinite linear;
     --grass-velocity: RightToLeft 30s infinite linear;
     --landscape-velocity: RightToLeft 55s infinite linear;
     --cloud-velocity: RightToLeft 120s infinite linear;
