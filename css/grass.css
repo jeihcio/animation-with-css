@@ -39,7 +39,8 @@
 }
 
 .tree1,
-.tree2 {
+.tree2,
+.tree3 {
     width: 40px;
     height: 50px;
     margin-top: -50px;
@@ -54,6 +55,11 @@
     margin-top: -60px;
 }
 
+.tree3 {
+    height: 60px;
+    margin-top: -60px;
+}
+
 .tree1 .leaf,
 .tree2 .leaf {
     width: 0;
@@ -61,6 +67,13 @@
     border-style: solid;
     border-width: 0 0 35px 15px;
     border-color: transparent transparent green transparent;
+}
+
+.tree3 .leaf {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, green 0%, green 50%, #046604 50%, #046604 100%);
+    border-radius: 50px 50px 10px 10px / 150px 150px 20px 20px;
 }
 
 .tree2 .leaf:nth-child(1) {
@@ -91,7 +104,8 @@
 }
 
 .tree1 .trunk,
-.tree2 .trunk {
+.tree2 .trunk,
+.tree3 .trunk {
     height: 13px;
     width: 5px;
     background: #744905;
