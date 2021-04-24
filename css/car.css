@@ -13,14 +13,6 @@
     flex-direction: column;
 }
 
-.car .exhaust {
-    background-color: #000;
-    width: 3px;
-    height: 5px;
-    margin-bottom: 5px;
-    margin-left: -3px;
-}
-
 .car .roof {
     position: relative;
     background-color: var(--car-color);
