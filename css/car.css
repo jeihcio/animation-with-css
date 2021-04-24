@@ -1,0 +1,9 @@
+.car {
+    position: relative;
+    background-color: red;
+    width: 210px;
+    height: 100px;
+    z-index: 10000;
+    margin-top: -115px;
+    margin-left: 40px;
+}

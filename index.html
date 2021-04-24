@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/house.css">
     <link rel="stylesheet" href="css/road.css">
     <link rel="stylesheet" href="css/grass.css">
+    <link rel="stylesheet" href="css/car.css">
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
@@ -21,826 +22,832 @@
 </head>
 
 <body>
-    <div id="container">
-        <div class="main-landscape">
-            <div class="sun"></div>
+    <main>
+        <div id="container">
+            <div class="main-landscape">
+                <div class="sun"></div>
 
-            <div class="clouds">
-                <div class="container">
-                    <div class="section">
-                        <div class="cloud">
-                            <div style="--widthCloud: 60px"></div>
-                            <div style="--widthCloud: 100px"></div>
-                            <div style="--widthCloud: 130px"></div>
-                            <div style="--widthCloud: 180px"></div>
-                        </div>
-
-                        <div class="cloud" style="margin-top: 45px;">
-                            <div style="--widthCloud: 40px; margin-left: 65px;"></div>
-
-                            <div class="group">
-                                <div style="--widthCloud: 60px" class="slim"></div>
-                                <div style="--widthCloud: 80px"></div>
+                <div class="clouds">
+                    <div class="container">
+                        <div class="section">
+                            <div class="cloud">
+                                <div style="--widthCloud: 60px"></div>
+                                <div style="--widthCloud: 100px"></div>
+                                <div style="--widthCloud: 130px"></div>
+                                <div style="--widthCloud: 180px"></div>
                             </div>
 
-                            <div style="--widthCloud: 130px"></div>
-                            <div style="--widthCloud: 100px; margin: 5px 0 0 10px;" class="slim"></div>
-                        </div>
+                            <div class="cloud" style="margin-top: 45px;">
+                                <div style="--widthCloud: 40px; margin-left: 65px;"></div>
 
-                        <div class="cloud">
-                            <div style="--widthCloud: 60px; margin-left: -60px;"></div>
-                            <div class="group">
-                                <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
-                                <div style="--widthCloud: 80px"></div>
+                                <div class="group">
+                                    <div style="--widthCloud: 60px" class="slim"></div>
+                                    <div style="--widthCloud: 80px"></div>
+                                </div>
+
+                                <div style="--widthCloud: 130px"></div>
+                                <div style="--widthCloud: 100px; margin: 5px 0 0 10px;" class="slim"></div>
+                            </div>
+
+                            <div class="cloud">
+                                <div style="--widthCloud: 60px; margin-left: -60px;"></div>
+                                <div class="group">
+                                    <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
+                                    <div style="--widthCloud: 80px"></div>
+                                </div>
+                            </div>
+
+                            <div class="cloud" style="margin-top: 35px;">
+                                <div style="--widthCloud: 60px"></div>
+                                <div style="--widthCloud: 100px"></div>
+                                <div style="--widthCloud: 130px"></div>
+                                <div style="--widthCloud: 180px"></div>
+                            </div>
+
+                            <div class="cloud">
+                                <div style="--widthCloud: 80px; margin-left: 40px;"></div>
+                                <div class="group">
+                                    <div style="--widthCloud: 80px"></div>
+                                    <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="cloud" style="margin-top: 35px;">
-                            <div style="--widthCloud: 60px"></div>
-                            <div style="--widthCloud: 100px"></div>
-                            <div style="--widthCloud: 130px"></div>
-                            <div style="--widthCloud: 180px"></div>
-                        </div>
+                        <div class="section">
+                            <div class="cloud">
+                                <div style="--widthCloud: 60px"></div>
+                                <div style="--widthCloud: 100px"></div>
+                                <div style="--widthCloud: 130px"></div>
+                                <div style="--widthCloud: 180px"></div>
+                            </div>
 
-                        <div class="cloud">
-                            <div style="--widthCloud: 80px; margin-left: 40px;"></div>
-                            <div class="group">
-                                <div style="--widthCloud: 80px"></div>
-                                <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
+                            <div class="cloud" style="margin-top: 45px;">
+                                <div style="--widthCloud: 40px; margin-left: 65px;"></div>
+
+                                <div class="group">
+                                    <div style="--widthCloud: 60px" class="slim"></div>
+                                    <div style="--widthCloud: 80px"></div>
+                                </div>
+
+                                <div style="--widthCloud: 130px"></div>
+                                <div style="--widthCloud: 100px; margin: 5px 0 0 10px;" class="slim"></div>
+                            </div>
+
+                            <div class="cloud">
+                                <div style="--widthCloud: 60px; margin-left: -60px;"></div>
+                                <div class="group">
+                                    <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
+                                    <div style="--widthCloud: 80px"></div>
+                                </div>
+                            </div>
+
+                            <div class="cloud" style="margin-top: 35px;">
+                                <div style="--widthCloud: 60px"></div>
+                                <div style="--widthCloud: 100px"></div>
+                                <div style="--widthCloud: 130px"></div>
+                                <div style="--widthCloud: 180px"></div>
+                            </div>
+
+                            <div class="cloud">
+                                <div style="--widthCloud: 80px; margin-left: 40px;"></div>
+                                <div class="group">
+                                    <div style="--widthCloud: 80px"></div>
+                                    <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="section">
-                        <div class="cloud">
-                            <div style="--widthCloud: 60px"></div>
-                            <div style="--widthCloud: 100px"></div>
-                            <div style="--widthCloud: 130px"></div>
-                            <div style="--widthCloud: 180px"></div>
-                        </div>
+                <div class="landscape">
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
 
-                        <div class="cloud" style="margin-top: 45px;">
-                            <div style="--widthCloud: 40px; margin-left: 65px;"></div>
+                        <div class="door"></div>
+                    </div>
 
-                            <div class="group">
-                                <div style="--widthCloud: 60px" class="slim"></div>
-                                <div style="--widthCloud: 80px"></div>
-                            </div>
+                    <div class="house small">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
 
-                            <div style="--widthCloud: 130px"></div>
-                            <div style="--widthCloud: 100px; margin: 5px 0 0 10px;" class="slim"></div>
-                        </div>
+                        <div class="door"></div>
+                    </div>
 
-                        <div class="cloud">
-                            <div style="--widthCloud: 60px; margin-left: -60px;"></div>
-                            <div class="group">
-                                <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
-                                <div style="--widthCloud: 80px"></div>
-                            </div>
-                        </div>
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
 
-                        <div class="cloud" style="margin-top: 35px;">
-                            <div style="--widthCloud: 60px"></div>
-                            <div style="--widthCloud: 100px"></div>
-                            <div style="--widthCloud: 130px"></div>
-                            <div style="--widthCloud: 180px"></div>
-                        </div>
+                        <div class="door"></div>
+                    </div>
 
-                        <div class="cloud">
-                            <div style="--widthCloud: 80px; margin-left: 40px;"></div>
-                            <div class="group">
-                                <div style="--widthCloud: 80px"></div>
-                                <div style="--widthCloud: 20px; margin-top: 8px;" class="slim"></div>
-                            </div>
-                        </div>
+                    <div class="house small">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house big ">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house small">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+                </div>
+
+                <div class="landscape">
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house small">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house small">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house small">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
+                    </div>
+
+                    <div class="house big">
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+                        <div class="window"></div>
+
+                        <div class="door"></div>
                     </div>
                 </div>
             </div>
 
-            <div class="landscape">
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
+            <div class="garden">
+                <div class="grams">
+                    <div class="tree1">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
 
-                    <div class="door"></div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree2">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree3">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree2">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree3">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree1">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree2">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+
+                        <div class="trunk"></div>
+                    </div>
+
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree3">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
 
-                <div class="house small">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
+                <div class="grams">
+                    <div class="tree1">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
 
-                    <div class="door"></div>
-                </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree2">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
 
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree3">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree2">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
 
-                    <div class="door"></div>
-                </div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree3">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree1">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree2">
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
+                        <div class="leaf"></div>
 
-                <div class="house small">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
+                        <div class="trunk"></div>
+                    </div>
 
-                    <div class="door"></div>
-                </div>
-
-                <div class="house big ">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house small">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="tree3">
+                        <div class="leaf"></div>
+                        <div class="trunk"></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="grass">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="landscape">
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house small">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house small">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house small">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-
-                <div class="house big">
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-                    <div class="window"></div>
-
-                    <div class="door"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="garden">
-            <div class="grams">
-                <div class="tree1">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree2">
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree3">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree2">
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree3">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree1">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree2">
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-
-                    <div class="trunk"></div>
-                </div>
-
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree3">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            <div class="grams">
-                <div class="tree1">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree2">
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree3">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree2">
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree3">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree1">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree2">
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-                    <div class="leaf"></div>
-
-                    <div class="trunk"></div>
-                </div>
-
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="tree3">
-                    <div class="leaf"></div>
-                    <div class="trunk"></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="grass">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+            <div class="road">
+                <div class="stripes"></div>
+                <div class="stripes"></div>
             </div>
         </div>
 
-        <div class="road">
-            <div class="stripes"></div>
-            <div class="stripes"></div>
+        <div class="car">
+
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
