@@ -38,18 +38,34 @@
     animation: RightToLeft 100s infinite linear;
 }
 
-.cloud1 {
+.cloud {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
 
-.cloud1 div {
+.cloud .slim {
+    height: 9px !important;
+    margin-top: 3px;
+}
+
+.cloud>div,
+.cloud .group>div {
     background: #cff7f9;
     width: var(--widthCloud);
-    height: 18px;
+    height: 15px;
     border-radius: 10px;
+}
+
+.cloud .group {
+    display: flex;
+    justify-content: row;
+    background: none;
+}
+
+.cloud .group div:nth-child(1) {
+    margin-right: 5px;
 }
 
 .landscape {
