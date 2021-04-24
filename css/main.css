@@ -1,8 +1,8 @@
 :root {
-    --cloud-velocity: RightToLeft 100s infinite linear;
-    --grass-velocity: RightToLeft 20s infinite linear;
-    --landscape-velocity: RightToLeft 25s infinite linear;
-    --road-velocity: RightToLeft 4s infinite linear;
+    --road-velocity: RightToLeft 2s infinite linear;
+    --grass-velocity: RightToLeft 30s infinite linear;
+    --landscape-velocity: RightToLeft 55s infinite linear;
+    --cloud-velocity: RightToLeft 120s infinite linear;
 }
 
 * {
