@@ -11,5 +11,5 @@
     width: 800px;
     height: 4px;
     background: repeating-linear-gradient(to right, white, white 7%, transparent 7%, transparent 12%);
-    animation: RightToLeft 4s infinite linear;
+    animation: var(--road-velocity);
 }

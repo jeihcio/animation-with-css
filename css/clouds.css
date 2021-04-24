@@ -17,7 +17,7 @@
     width: 1400px;
     display: flex;
     justify-content: space-between;
-    animation: RightToLeft 100s infinite linear;
+    animation: var(--cloud-velocity);
 }
 
 .cloud {

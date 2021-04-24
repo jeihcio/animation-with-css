@@ -9,7 +9,7 @@
     position: relative;
     width: 800px;
     height: 330px;
-    animation: RightToLeft 25s infinite linear;
+    animation: var(--landscape-velocity);
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
