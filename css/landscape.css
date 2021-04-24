@@ -1,0 +1,16 @@
+.main-landscape {
+    background: #91e0ff;
+    width: 1600px;
+    height: 100%;
+    display: flex;
+}
+
+.landscape {
+    position: relative;
+    width: 800px;
+    height: 330px;
+    animation: RightToLeft 25s infinite linear;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}

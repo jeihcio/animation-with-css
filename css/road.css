@@ -1,0 +1,15 @@
+.road {
+    background-color: #2f3336;
+    width: 1600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-top: #fff 1px solid;
+}
+
+.stripes {
+    width: 800px;
+    height: 4px;
+    background: repeating-linear-gradient(to right, white, white 7%, transparent 7%, transparent 12%);
+    animation: RightToLeft 4s infinite linear;
+}

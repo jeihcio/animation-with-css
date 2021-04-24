@@ -1,0 +1,50 @@
+.clouds {
+    position: absolute;
+    width: 800px;
+    height: 140px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.clouds .container {
+    width: 2800px;
+    height: 200px;
+    display: flex;
+}
+
+.clouds .container .section {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    animation: RightToLeft 100s infinite linear;
+}
+
+.cloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cloud .slim {
+    height: 9px !important;
+    margin-top: 3px;
+}
+
+.cloud>div,
+.cloud .group>div {
+    background: #cff7f9;
+    width: var(--widthCloud);
+    height: 15px;
+    border-radius: 10px;
+}
+
+.cloud .group {
+    display: flex;
+    background: none;
+}
+
+.cloud .group div:nth-child(1) {
+    margin-right: 5px;
+}
