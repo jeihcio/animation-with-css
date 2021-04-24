@@ -1,7 +1,3 @@
-:root {
-    --animation: RightToLeft 6s infinite linear;
-}
-
 .main-landscape {
     background: #91e0ff;
     width: 1600px;
@@ -13,7 +9,23 @@
     position: relative;
     width: 800px;
     height: 290px;
-    animation: var(--animation);
+    animation: RightToLeft 20s infinite linear;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.house {
+    background-color: #83a5d0;
+    width: 60px;
+}
+
+.big {
+    height: 130px;
+}
+
+.small {
+    height: 80px;
 }
 
 .grass {
@@ -35,7 +47,7 @@
     width: 800px;
     height: 10px;
     background: repeating-linear-gradient(to right, white, white 7%, transparent 7%, transparent 12%);
-    animation: var(--animation);
+    animation: RightToLeft 4s infinite linear;
 }
 
 @keyframes RightToLeft {
