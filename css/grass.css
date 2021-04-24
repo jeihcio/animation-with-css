@@ -1,0 +1,33 @@
+.garden {
+    --color-grass: green;
+    background-color: var(--color-grass);
+    width: 800px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grass {
+    width: 20px;
+    height: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -4px;
+    z-index: 1000;
+}
+
+.grass>div {
+    background-color: var(--color-grass);
+    width: 2px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.grass>div:nth-child(1) {
+    transform: rotate(-20deg);
+}
+
+.grass>div:nth-child(3) {
+    transform: rotate(20deg);
+}
