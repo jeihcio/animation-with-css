@@ -5,4 +5,4 @@ Exemplo de um cenário criado e animado apenas usando CSS
 ![](https://raw.githubusercontent.com/jeihcio/animation-with-css/master/resultado.png)
 
 # Resultado animado
-http://desenvolvimento-jf.gearhostpreview.com/animacao-css/
+https://jeihcio.github.io/animation-with-css/
